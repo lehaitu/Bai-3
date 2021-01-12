@@ -1,0 +1,41 @@
+.invite {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    max-width: 768px;
+    margin: 0 auto;
+}
+.invite input {
+    padding: 10px;
+    background-color: white;
+    border: solid white;
+}
+.invite button {
+    padding: 15px;
+    color: white;
+    background-color: #70cbce ;
+    border-radius: 4px;
+    border: solid #70cbce;
+}
+.invite button:hover {
+    background-color: #de4a1e;
+    border: 2px solid #de4a1e;
+}
+
+.invite .fa-envelope:before {
+    color: #70cbce;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invite .icon {
+    border: 2px solid #70cbce;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
